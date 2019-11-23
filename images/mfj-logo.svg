@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2002" height="575" viewBox="0 0 2002 575">
+  <defs>
+    <filter id="Polygon_106" x="0" y="146" width="328" height="283" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_107" x="256" y="292" width="328" height="283" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_108" x="256" y="0" width="328" height="283" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_12" data-name="Group 12" transform="translate(479 -20321)">
+    <g transform="matrix(1, 0, 0, 1, -479, 20321)" filter="url(#Polygon_106)">
+      <path id="Polygon_106-2" data-name="Polygon 106" d="M212.424,0a35,35,0,0,1,30.212,17.329l57.028,97.5a35,35,0,0,1,0,35.342l-57.028,97.5A35,35,0,0,1,212.424,265H97.576a35,35,0,0,1-30.212-17.329l-57.028-97.5a35,35,0,0,1,0-35.342l57.028-97.5A35,35,0,0,1,97.576,0Z" transform="translate(9 152)" fill="#46c9d3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -479, 20321)" filter="url(#Polygon_107)">
+      <path id="Polygon_107-2" data-name="Polygon 107" d="M212.424,0a35,35,0,0,1,30.212,17.329l57.028,97.5a35,35,0,0,1,0,35.342l-57.028,97.5A35,35,0,0,1,212.424,265H97.576a35,35,0,0,1-30.212-17.329l-57.028-97.5a35,35,0,0,1,0-35.342l57.028-97.5A35,35,0,0,1,97.576,0Z" transform="translate(265 298)" fill="#f8126a"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -479, 20321)" filter="url(#Polygon_108)">
+      <path id="Polygon_108-2" data-name="Polygon 108" d="M212.424,0a35,35,0,0,1,30.212,17.329l57.028,97.5a35,35,0,0,1,0,35.342l-57.028,97.5A35,35,0,0,1,212.424,265H97.576a35,35,0,0,1-30.212-17.329l-57.028-97.5a35,35,0,0,1,0-35.342l57.028-97.5A35,35,0,0,1,97.576,0Z" transform="translate(265 6)" fill="#ff7816"/>
+    </g>
+    <text id="_fj" data-name=" fj" transform="translate(296 20651)" fill="#f1f1f1" font-size="251" font-family="Montserrat-Light, Montserrat" font-weight="300"><tspan x="0" y="0" xml:space="preserve"> fj</tspan></text>
+    <text id="Web_debelopment" data-name="Web debelopment" transform="translate(112 20805)" fill="#f1f1f1" font-size="150" font-family="Montserrat-Light, Montserrat" font-weight="300"><tspan x="0" y="0">Web debelopment</tspan></text>
+    <text id="W" transform="translate(365 20457) rotate(180)" fill="#f1f1f1" font-size="290" font-family="Montserrat-Light, Montserrat" font-weight="300"><tspan x="0" y="0">W</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="581" height="576" viewBox="0 0 581 576">
+  <defs>
+    <filter id="Polygon_100" x="0" y="146" width="327" height="286" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_101" x="253" y="290" width="328" height="286" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_102" x="253" y="0" width="328" height="286" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(259 -19213)">
+    <g transform="matrix(1, 0, 0, 1, -259, 19213)" filter="url(#Polygon_100)">
+      <path id="Polygon_100-2" data-name="Polygon 100" d="M208.639,0a40,40,0,0,1,34.654,20.022l54.19,94a40,40,0,0,1,0,39.955l-54.19,94A40,40,0,0,1,208.639,268H100.361a40,40,0,0,1-34.654-20.022l-54.19-94a40,40,0,0,1,0-39.955l54.19-94A40,40,0,0,1,100.361,0Z" transform="translate(9 152)" fill="#46c9d3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -259, 19213)" filter="url(#Polygon_101)">
+      <path id="Polygon_101-2" data-name="Polygon 101" d="M209.426,0a40,40,0,0,1,34.626,19.974l54.366,94a40,40,0,0,1,0,40.052l-54.366,94A40,40,0,0,1,209.426,268H100.574a40,40,0,0,1-34.626-19.974l-54.366-94a40,40,0,0,1,0-40.052l54.366-94A40,40,0,0,1,100.574,0Z" transform="translate(262 296)" fill="#f8126a"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -259, 19213)" filter="url(#Polygon_102)">
+      <path id="Polygon_102-2" data-name="Polygon 102" d="M209.426,0a40,40,0,0,1,34.626,19.974l54.366,94a40,40,0,0,1,0,40.052l-54.366,94A40,40,0,0,1,209.426,268H100.574a40,40,0,0,1-34.626-19.974l-54.366-94a40,40,0,0,1,0-40.052l54.366-94A40,40,0,0,1,100.574,0Z" transform="translate(262 6)" fill="#ff7816"/>
+    </g>
+  </g>
+</svg>
