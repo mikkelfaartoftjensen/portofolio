@@ -1,44 +1,12 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 251.479 251.479" style="enable-background:new 0 0 251.479 251.479;" xml:space="preserve">
-<g>
-	<path d="M209.355,135.551c-4.143,0-7.5,3.358-7.5,7.5v76.109H49.634v-76.109c0-4.142-3.357-7.5-7.5-7.5c-4.143,0-7.5,3.358-7.5,7.5
-		v83.609c0,4.142,3.357,7.5,7.5,7.5h167.221c4.143,0,7.5-3.358,7.5-7.5v-83.609C216.855,138.909,213.497,135.551,209.355,135.551z"
-		/>
-	<path d="M249.282,137.748L131.035,19.515c-2.928-2.929-7.677-2.928-10.606,0L2.197,137.748c-2.929,2.929-2.929,7.678,0,10.606
-		c1.465,1.464,3.385,2.197,5.304,2.197c1.92,0,3.839-0.732,5.304-2.197l112.929-112.93l112.943,112.93
-		c2.928,2.929,7.677,2.928,10.607-0.001C252.211,145.425,252.211,140.676,249.282,137.748z"/>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="45.7" viewBox="0 0 53 45.7">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f1f1f1"/>
+      <stop offset="1" stop-color="#f1f1f1"/>
+    </linearGradient>
+  </defs>
+  <g id="home_1_-_Copy" data-name="home (1) - Copy" transform="translate(0 -17.319)">
+    <path id="Path_55" data-name="Path 55" d="M71.457,135.551a1.581,1.581,0,0,0-1.581,1.581v16.04H37.8v-16.04a1.581,1.581,0,0,0-3.161,0v17.621a1.581,1.581,0,0,0,1.581,1.581H71.457a1.581,1.581,0,0,0,1.581-1.581V137.132A1.581,1.581,0,0,0,71.457,135.551Z" transform="translate(-27.335 -93.315)" fill="url(#linear-gradient)"/>
+    <path id="Path_56" data-name="Path 56" d="M52.537,42.7,27.616,17.782a1.581,1.581,0,0,0-2.235,0L.463,42.7A1.581,1.581,0,0,0,2.7,44.935l23.8-23.8,23.8,23.8A1.58,1.58,0,1,0,52.537,42.7Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+  </g>
 </svg>

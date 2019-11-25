@@ -1,0 +1,163 @@
+//variables
+$red: #F8126A;
+$blue: #46C9D3;
+$darkblue: #072740;
+$orange: #FF7816;
+$white: #F1F1F1;
+$gray: #CECED5;
+//for gradients
+$btn1: #FF8800;
+$btn2: #FFBEBE;
+$background1: rgba(36, 37, 60, 0.65);
+$background2: rgba(36, 37, 60, 1);
+$nav1: #1E253C;
+$nav2: rgba(255, 255, 255, 0);
+//for gradients
+//variables end
+//inheritances
+%center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%size {
+  width: 100%;
+  height: 100vh;
+}
+%hide {
+  display: none;
+}
+%shadow {
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+}
+%cta-btn {
+background-image: linear-gradient($btn1, $btn2);
+width: 200px;
+height: 50px;
+font-size: 1.5em;
+border-radius: 50px;
+font-family: trebuchet ms, "century gothic";
+outline: none;
+border: none;
+color: $white;
+}
+%a {
+  text-decoration: none;
+  color: $white;
+}
+//inheritances
+html {
+  scroll-behavior: smooth;
+}
+body {
+ font-family: "century gothic", trebuchet ms;
+ margin: 0px;
+ padding: 0px;
+ overflow-x: hidden;
+}
+nav {
+  background-image: linear-gradient($nav1, $nav2);
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 150px;
+  }
+}
+#nav-tabs {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  a {
+    @extend %a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+  }
+  img {
+    margin: 10px;
+    color: $white;
+    width: 30px;
+    height: auto;
+  }
+}
+#home {
+  position: relative;
+  @extend %size;
+}
+.txt-btn-wrap {
+  @extend %center;
+  flex-direction: column;
+  button {
+    @extend %cta-btn;
+    @extend %shadow;
+  }
+}
+button:hover {
+
+}
+.intro-wrap {
+  @extend %center;
+  justify-content: space-between;
+  width: 60%;
+  z-index: 5;
+  p {
+    color: $white;
+    font-size: 1.7em;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: $white;
+    @extend %shadow;
+  }
+}
+#your-element-selector {
+  width: 100%;
+  height: 100%;
+}
+.gradient {
+  background-image: linear-gradient($background1, $background2);
+  position: absolute;
+  z-index: 2;
+    @extend %center;
+  @extend %size;
+}
+.pattern {
+  position: absolute;
+  z-index: 3;
+  bottom: -75px;
+  right: 0px;
+  width: 100%;
+}
+#expierence {
+  @extend %size;
+  background-color: $gray;
+  img {
+    width: 35%;
+  }
+}
+.expierence-blue-gradient {
+  padding-top: 50px;
+  @extend %center;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+  background-image: linear-gradient($nav1, #072740);
+  color: $white;
+  text-align: center;
+  img {
+    margin-bottom: -200px;
+  }
+}

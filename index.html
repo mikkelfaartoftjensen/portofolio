@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mfj - Web developer</title>
+  <link rel="shortcut icon" type="image/png" href="images/mfj-favicon.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+ </head>
+
+<body>
+<nav>
+  <a href="#home"><img src="images/mfj-logo.svg" alt="mfj web developer logo"></a>
+  <div id="nav-tabs">
+     <a href="#home">
+       <img src="images/home.svg" alt="icon of a home">
+       HOME
+     </a>
+     <a href="#expierence">
+       <img src="images/desktop.svg" alt="icon of a home">
+       EXPIERENCE
+     </a>
+     <a href="#home">
+       <img src="images/about.svg" alt="icon of a home">
+       ABOUT
+     </a>
+     <a href="#home">
+       <img src="images/home.svg" alt="icon of a home">
+       WORKS
+     </a>
+     <a href="#home">
+       <img src="images/at.svg" alt="icon of a home">
+       CONTACT
+     </a>
+  </div>
+</nav>
+<section id="home">
+  <div class="gradient">
+    <div class="intro-wrap">
+      <div class="txt-btn-wrap">
+      <p>Hi, i'm Mikkkel, and I specialize<br>in Front-end web developing.</p>
+      <button type="button" name="button">SEE MORE</button>
+      </div>
+      <img src="images/mads-jensen-circle.png" alt="image of mads faartoft jensen">
+    </div>
+  </div>
+ <div id="your-element-selector"></div>
+<img class="pattern" src="images/index-pattern.png" alt="blue, white, orange and pattern">
+</section>
+<section id="expierence">
+<div class="expierence-blue-gradient">
+  <h2>My expierence</h2>
+  <p>See here below my expierence in different fields. Read about my designs,<br>my developing process and the tools I use.</p>
+  <img src="images/computer-skills.png" alt="image of computer with skillset such as tools, developing and desing">
+</div>
+</section>
+<!------animation on landing page---------->
+  <script src="js/three.r92.min.js"></script>
+<script src="js/vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#your-element-selector",
+  color: 0x80b3,
+  backgroundColor: 0xffffff,
+  points: 15.00,
+  maxDistance: 21.00,
+  spacing: 18.00
+})
+</script>
+<!------animation on landing page end---------->
+<!------AOS jQuery plugin for animations---------->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!------AOS jQuery plugin for animations end---------->
+
+<!-------linking to js file------------------------->
+  <script src="js/script.js" charset="utf-8"></script>
+  <!-------linking to js file end------------------------->
+</body>
